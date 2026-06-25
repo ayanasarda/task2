@@ -24,6 +24,3 @@ Output
 - Prints the state of L1, L2, and L3 after every cycle  
 - Final summary includes total cycles, tasks completed, and RAM accesses  
 
-Output using the input file provided:
-<img width="1431" height="801" alt="output" src="https://github.com/user-attachments/assets/a6eaaaba-d013-4900-8956-fd0ae3c83533" />
-
