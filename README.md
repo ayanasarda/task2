@@ -25,4 +25,5 @@ Output
 - Final summary includes total cycles, tasks completed, and RAM accesses  
 
 Output using the input file provided:
-<img width="303" height="307" alt="image" src="https://github.com/user-attachments/assets/73b3cfb0-31a0-485e-a766-a05d8f0a8897" />
+<img width="1431" height="801" alt="output" src="https://github.com/user-attachments/assets/a6eaaaba-d013-4900-8956-fd0ae3c83533" />
+
