@@ -23,3 +23,6 @@ Output
 - Displays memory requests and cache hits/misses  
 - Prints the state of L1, L2, and L3 after every cycle  
 - Final summary includes total cycles, tasks completed, and RAM accesses  
+
+Output using the input file provided:
+<img width="303" height="307" alt="image" src="https://github.com/user-attachments/assets/73b3cfb0-31a0-485e-a766-a05d8f0a8897" />
