@@ -1,14 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// ================= TASK =================
+
 struct Task {
     string id;
     int burst;
     queue<string> mem_requests;
 };
 
-// ================= CACHE LEVEL =================
+
 class CacheLevel {
 public:
     int capacity;
@@ -47,7 +47,7 @@ public:
     }
 };
 
-// ================= CACHE SYSTEM =================
+
 class CacheSystem {
 public:
     CacheLevel L1 = CacheLevel(32, 4);
@@ -83,7 +83,7 @@ public:
         cout << ">> MISS (RAM FETCH) ";
         ram_accesses++;
 
-        // Insert into all levels (important fix)
+     
         L3.insert(block);
         L2.insert(block);
         L1.insert(block);
@@ -98,7 +98,7 @@ public:
     }
 };
 
-// ================= INPUT =================
+
 vector<Task> parseInput(string filename) {
     ifstream file(filename);
     vector<Task> tasks;
@@ -124,7 +124,7 @@ vector<Task> parseInput(string filename) {
     return tasks;
 }
 
-// ================= SCHEDULER =================
+
 class Scheduler {
 public:
     int quantum = 2;
@@ -181,7 +181,7 @@ public:
     }
 };
 
-// ================= MAIN =================
+
 int main() {
     vector<Task> tasks = parseInput("input.txt");
 
