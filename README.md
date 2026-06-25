@@ -8,7 +8,7 @@ The cache uses FIFO eviction, so when a level is full, the oldest block is remov
 
 In real systems, multiple programs compete for CPU time and fast memory access. The scheduler decides which task runs next, while the cache hierarchy helps reduce memory access time by keeping frequently used data closer to the CPU.
 
-L1 is the fastest but smallest cache, followed by L2 and L3. If data is not found in any cache level, it is fetched from RAM, which is much slower. This simulation shows how cache hits and misses affect performance.
+L1 is the fastest but smallest cache, followed by L2 and L3. If data is not found in any cache level, it is fetched from RAM. This simulation shows how cache hits and misses affect performance.
 
 Input
 
